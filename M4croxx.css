@@ -1,5 +1,7 @@
 body{
     background-image: url(m4bg.png);
+    background-attachment: fixed; 
+    background-size: cover;
 }
 
 .box{
