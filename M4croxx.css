@@ -29,8 +29,10 @@ h1{
 
 .bex{
     background-color: transparent;
-    border: none;
     cursor: pointer;
+    background-color: #000000;
+    border-color: white;
+    border-width: 2px;
 }
 
 .box:hover{
