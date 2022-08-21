@@ -1,4 +1,4 @@
-# [m4croxx.github.io](https://m4croxx.github.io) is the official website of m4croxx, used for his twitch and youtube accounts and for displaying some thigs about him and showing the pheriperials he use
+# [m4croxx.github.io](https://m4croxx.github.io) is the official website of m4croxx, used for his twitch and youtube accounts and for displaying some thigs about him and for showing the pheriperials he use
  <p align="center">
  
   <!-- M4croxx -->
