@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    background-image: url(image/m4bg.png);
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.box{
+    position: absolute;
+    margin: 15px;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.144);
+    backdrop-filter: blur(5px);
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    font-size: 30px;
+    left: 20%;
+    box-shadow: 0 0 0.5em #000000;    
+}
+
+@font-face {
+    font-family: "MonogramsToolbox";
+    src: url(FONT/MonogramsToolbox.ttf);
+}
+
+h1{
+    font-family: "MonogramsToolbox";
+}
+
+.bex{
+    background-color: transparent;
+    cursor: pointer;
+    border-color: transparent;
+    border-width: 10px;
+}
+
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+/* MOBILE */
+@media only screen and (max-width: 1700px) {
+
+    #about img{
+        width: 750px;
+        border-radius: 25px;
+        height: 300px;
+    }
+
+
+    .desktoponly{
+        display: none;
+    }
+
+    .m4scritta{
+        bottom: 91%; 
+        position: absolute;
+    }
+
+    .chisono{
+        top: 20%;
+    }
+
+    .progetti{
+        top: 42%;
+    }
+
+    .contatti{
+        top: 65%;
+    }
+
+    .stwlogo{
+        height: 60px;
+        width: 60px;
+    }
+
+    .distributori{
+        top: -3%;
+    }
+
+    .cover{
+        width: 400px;
+        height: 400px;
+    }
+
+    #social{
+        position: fixed;
+        bottom: 0px;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1701px){
+
+    .about{
+        display: flex;
+        align-items: center;
+    }
+
+    
+    .mobileonly{
+        display: none;
+    }
+
+    #about img{
+        width: 500px;
+        border-radius: 25px;
+        height: 700px;
+    }
+
+    .m4scritta{
+        bottom: 82%; 
+        position: absolute;
+    }
+
+    .chisono{
+        top: 10%;
+    }
+
+    .contatti{
+        top: 37%;
+    }
+
+    .progetti{
+        top: 64%;
+    }
+
+    .stwlogo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .distributori{
+        top: 7%;
+    }
+
+    .cover{
+        width: 500px;
+        height: 500px;
+    }
+
+    .comingsoon{
+        display: none;
+    }
+
+}
+
+/* ========== < PROGETTI > ========== */
+
+.song{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.album{    
+    padding: 10% 0;
+    text-align: center;
+}
+
+.distributori{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.software{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+#progetti{
+    position: relative;
+}
+
+/* ========== < SOCIAL > ========== */
+
+.social{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+}
+
+#social{
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+}
+
+.social:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur(5px);
+}
+
+.social img{
+    width: 60px;
+    height: 60px;
+}
+
+/* ========== < ABOUT ME  > ========== */
+
+.about{
+    margin: auto;
+    width: 80%;
+}
+
+#about h1{
+    padding: 20px;
+    color: white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
