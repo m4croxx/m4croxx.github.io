@@ -4,6 +4,7 @@ body{
     background-image: url(image/m4bg.png);
     background-attachment: fixed; 
     background-size: cover;
+    background-repeat: repeat;
 }
 
 .box{
